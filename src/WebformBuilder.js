@@ -47,6 +47,7 @@ export default class WebformBuilder extends Component {
 
     this.sideBarScroll = _.get(this.options, 'sideBarScroll', true);
     this.sideBarScrollOffset = _.get(this.options, 'sideBarScrollOffset', 0);
+    this.keyboardActionsEnabled = _.get(this.options, 'keyboardBuilder', false);
     this.dragDropEnabled = true;
 
     // Setup the builder options.
@@ -390,6 +391,11 @@ export default class WebformBuilder extends Component {
 
     if (component.refs.moveComponent) {
       this.attachTooltip(component.refs.moveComponent, this.t('Move'));
+      if (this.keyboardActionsEnabled) {
+        component.addEventListener(component.refs.moveComponent, 'click', () => {
+          this.moveComponent(component);
+        });
+      }
     }
 
     const parent = this.getParentElement(element);
@@ -545,6 +551,7 @@ export default class WebformBuilder extends Component {
             groupId: `group-container-${groupKey}`,
             subgroups: []
           })),
+          keyboardActionsEnabled: this.keyboardActionsEnabled,
         })),
       }),
       form: this.webform.render(),
@@ -565,6 +572,7 @@ export default class WebformBuilder extends Component {
         'sidebar-anchor': 'multiple',
         'sidebar-group': 'multiple',
         'sidebar-container': 'multiple',
+        'sidebar-component': 'multiple',
       });
 
       if (this.sideBarScroll && Templates.current.handleBuilderSidebarScroll) {
@@ -605,6 +613,16 @@ export default class WebformBuilder extends Component {
                   ? 'inherit' : 'none';
             });
           }, true);
+        });
+      }
+
+      if (this.keyboardActionsEnabled) {
+        this.refs['sidebar-component'].forEach((component) => {
+          this.addEventListener(component, 'keydown', (event) => {
+            if (event.keyCode === 13) {
+              this.addNewComponent(component);
+            }
+          });
         });
       }
 
@@ -1516,6 +1534,113 @@ export default class WebformBuilder extends Component {
       data.placeholder ||
       data.type
     ).replace(/^[0-9]*/, '');
+  }
+
+  moveComponent(component) {
+    if (component) {
+      component.element.focus();
+    }
+    this.selectedElement = component;
+    this.removeEventListener(component.element, 'keydown');
+    this.addEventListener(component.element, 'keydown', this.moveHandler.bind(this));
+  }
+
+  moveHandler = (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    if (e.keyCode === 38) {
+      this.updateComponentPlacement(true);
+    }
+    if (e.keyCode === 40) {
+      this.updateComponentPlacement(false);
+    }
+    if (e.keyCode === 13) {
+      this.stopMoving(this.selectedElement);
+    }
+  };
+
+  updateComponentPlacement(direction) {
+    const component = this.selectedElement;
+    let index, info;
+    const step = direction ? -1 : 1;
+    if (component) {
+      const element = component.element;
+      const sibling = direction ? element.previousElementSibling : element.nextElementSibling;
+      const source = element.parentNode;
+
+      const containerLenght = source.formioContainer.length;
+
+      if (containerLenght && containerLenght <= 1) {
+        return;
+      }
+
+      if (source.formioContainer) {
+        index = _.findIndex(source.formioContainer, { key: element.formioComponent.component.key });
+
+        if (index !== -1) {
+          info = source.formioContainer.splice(
+            _.findIndex(source.formioContainer, { key: element.formioComponent.component.key }), 1
+          );
+          info = info[0];
+          source.removeChild(element);
+        }
+      }
+
+      const len = source.formioComponent.components.length;
+        index = (index === -1) ? 0 : index + step;
+
+        if (index === -1) {
+          source.formioContainer.push(info);
+          source.appendChild(element);
+        }
+        else if (index === len) {
+          const key = source.formioContainer[0].key;
+          index = _.findIndex(source.formioComponent.components, { key: key });
+          const firstElement = source.formioComponent.components[index].element;
+          source.formioContainer.splice(0, 0, info);
+          source.insertBefore(element, firstElement);
+        }
+        else if (index !== -1) {
+          source.formioContainer.splice(index, 0, info);
+          direction
+          ? source.insertBefore(element, sibling)
+          : source.insertBefore(element, sibling.nextElementSibling);
+        }
+        element.focus();
+    }
+  }
+
+  stopMoving(comp) {
+    const parent = comp.element.parentNode;
+    parent.formioComponent.rebuild();
+  }
+
+  addNewComponent(element) {
+    const source = document.querySelector('.formio-builder-form');
+    const key = element.getAttribute('data-key');
+    const group = element.getAttribute('data-group');
+
+    const isNew = true;
+    let info;
+
+    if (key && group) {
+      info = this.getComponentInfo(key, group);
+    }
+
+    if (isNew && !this.options.noNewEdit && !info.noNewEdit) {
+      this.editComponent(info, source, isNew, null, null);
+    }
+
+    const firstComponent = source.formioComponent.components[0]?.element;
+
+    if (firstComponent) {
+      source.formioContainer.splice(0, 0, info);
+    }
+    else {
+      source.formioContainer.push(info);
+    }
+
+    source.formioComponent.rebuild();
   }
 
   /**
