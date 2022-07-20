@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 1205,
+  "end": 1222,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 1205,
+    "end": 1222,
     "loc": {
       "start": {
         "line": 1,
@@ -134,8 +134,8 @@
       },
       {
         "type": "ExpressionStatement",
-        "start": 33,
-        "end": 1204,
+        "start": 35,
+        "end": 1220,
         "loc": {
           "start": {
             "line": 3,
@@ -148,8 +148,8 @@
         },
         "expression": {
           "type": "AssignmentExpression",
-          "start": 33,
-          "end": 1203,
+          "start": 35,
+          "end": 1219,
           "loc": {
             "start": {
               "line": 3,
@@ -163,8 +163,8 @@
           "operator": "=",
           "left": {
             "type": "MemberExpression",
-            "start": 33,
-            "end": 47,
+            "start": 35,
+            "end": 49,
             "loc": {
               "start": {
                 "line": 3,
@@ -177,8 +177,8 @@
             },
             "object": {
               "type": "Identifier",
-              "start": 33,
-              "end": 39,
+              "start": 35,
+              "end": 41,
               "loc": {
                 "start": {
                   "line": 3,
@@ -194,8 +194,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 40,
-              "end": 47,
+              "start": 42,
+              "end": 49,
               "loc": {
                 "start": {
                   "line": 3,
@@ -213,8 +213,8 @@
           },
           "right": {
             "type": "ClassExpression",
-            "start": 50,
-            "end": 1203,
+            "start": 52,
+            "end": 1219,
             "loc": {
               "start": {
                 "line": 3,
@@ -227,8 +227,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 40,
-              "end": 47,
+              "start": 42,
+              "end": 49,
               "loc": {
                 "start": {
                   "line": 3,
@@ -244,8 +244,8 @@
             },
             "superClass": {
               "type": "Identifier",
-              "start": 68,
-              "end": 72,
+              "start": 70,
+              "end": 74,
               "loc": {
                 "start": {
                   "line": 3,
@@ -261,8 +261,8 @@
             },
             "body": {
               "type": "ClassBody",
-              "start": 73,
-              "end": 1203,
+              "start": 75,
+              "end": 1219,
               "loc": {
                 "start": {
                   "line": 3,
@@ -276,8 +276,8 @@
               "body": [
                 {
                   "type": "ClassProperty",
-                  "start": 77,
-                  "end": 127,
+                  "start": 80,
+                  "end": 130,
                   "loc": {
                     "start": {
                       "line": 4,
@@ -292,8 +292,8 @@
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 77,
-                    "end": 91,
+                    "start": 80,
+                    "end": 94,
                     "loc": {
                       "start": {
                         "line": 4,
@@ -309,8 +309,8 @@
                   },
                   "value": {
                     "type": "StringLiteral",
-                    "start": 94,
-                    "end": 126,
+                    "start": 97,
+                    "end": 129,
                     "loc": {
                       "start": {
                         "line": 4,
@@ -330,8 +330,8 @@
                 },
                 {
                   "type": "ClassMethod",
-                  "start": 131,
-                  "end": 1201,
+                  "start": 136,
+                  "end": 1216,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -346,8 +346,8 @@
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 131,
-                    "end": 136,
+                    "start": 136,
+                    "end": 141,
                     "loc": {
                       "start": {
                         "line": 6,
@@ -369,8 +369,8 @@
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 137,
-                      "end": 142,
+                      "start": 142,
+                      "end": 147,
                       "loc": {
                         "start": {
                           "line": 6,
@@ -387,8 +387,8 @@
                   ],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 144,
-                    "end": 1201,
+                    "start": 149,
+                    "end": 1216,
                     "loc": {
                       "start": {
                         "line": 6,
@@ -402,8 +402,8 @@
                     "body": [
                       {
                         "type": "VariableDeclaration",
-                        "start": 285,
-                        "end": 754,
+                        "start": 293,
+                        "end": 762,
                         "loc": {
                           "start": {
                             "line": 9,
@@ -417,8 +417,8 @@
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
-                            "start": 291,
-                            "end": 753,
+                            "start": 299,
+                            "end": 761,
                             "loc": {
                               "start": {
                                 "line": 9,
@@ -431,8 +431,8 @@
                             },
                             "id": {
                               "type": "Identifier",
-                              "start": 291,
-                              "end": 293,
+                              "start": 299,
+                              "end": 301,
                               "loc": {
                                 "start": {
                                   "line": 9,
@@ -449,8 +449,8 @@
                             },
                             "init": {
                               "type": "RegExpLiteral",
-                              "start": 296,
-                              "end": 753,
+                              "start": 304,
+                              "end": 761,
                               "loc": {
                                 "start": {
                                   "line": 9,
@@ -475,8 +475,8 @@
                           {
                             "type": "CommentBlock",
                             "value": " eslint-disable max-len ",
-                            "start": 150,
-                            "end": 178,
+                            "start": 156,
+                            "end": 184,
                             "loc": {
                               "start": {
                                 "line": 7,
@@ -491,8 +491,8 @@
                           {
                             "type": "CommentLine",
                             "value": " From https://stackoverflow.com/questions/8667070/javascript-regular-expression-to-validate-url",
-                            "start": 183,
-                            "end": 280,
+                            "start": 190,
+                            "end": 287,
                             "loc": {
                               "start": {
                                 "line": 8,
@@ -509,8 +509,8 @@
                           {
                             "type": "CommentLine",
                             "value": " From http://stackoverflow.com/questions/46155/validate-email-address-in-javascript",
-                            "start": 759,
-                            "end": 844,
+                            "start": 768,
+                            "end": 853,
                             "loc": {
                               "start": {
                                 "line": 10,
@@ -526,8 +526,8 @@
                       },
                       {
                         "type": "VariableDeclaration",
-                        "start": 849,
-                        "end": 1016,
+                        "start": 859,
+                        "end": 1026,
                         "loc": {
                           "start": {
                             "line": 11,
@@ -541,8 +541,8 @@
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
-                            "start": 855,
-                            "end": 1015,
+                            "start": 865,
+                            "end": 1025,
                             "loc": {
                               "start": {
                                 "line": 11,
@@ -555,8 +555,8 @@
                             },
                             "id": {
                               "type": "Identifier",
-                              "start": 855,
-                              "end": 862,
+                              "start": 865,
+                              "end": 872,
                               "loc": {
                                 "start": {
                                   "line": 11,
@@ -573,8 +573,8 @@
                             },
                             "init": {
                               "type": "RegExpLiteral",
-                              "start": 865,
-                              "end": 1015,
+                              "start": 875,
+                              "end": 1025,
                               "loc": {
                                 "start": {
                                   "line": 11,
@@ -599,8 +599,8 @@
                           {
                             "type": "CommentLine",
                             "value": " From http://stackoverflow.com/questions/46155/validate-email-address-in-javascript",
-                            "start": 759,
-                            "end": 844,
+                            "start": 768,
+                            "end": 853,
                             "loc": {
                               "start": {
                                 "line": 10,
@@ -617,8 +617,8 @@
                           {
                             "type": "CommentBlock",
                             "value": " eslint-enable max-len ",
-                            "start": 1021,
-                            "end": 1048,
+                            "start": 1032,
+                            "end": 1059,
                             "loc": {
                               "start": {
                                 "line": 12,
@@ -633,8 +633,8 @@
                           {
                             "type": "CommentLine",
                             "value": " Allow urls to be valid if the component is pristine and no value is provided.",
-                            "start": 1054,
-                            "end": 1134,
+                            "start": 1067,
+                            "end": 1147,
                             "loc": {
                               "start": {
                                 "line": 14,
@@ -650,8 +650,8 @@
                       },
                       {
                         "type": "ReturnStatement",
-                        "start": 1139,
-                        "end": 1197,
+                        "start": 1153,
+                        "end": 1211,
                         "loc": {
                           "start": {
                             "line": 15,
@@ -664,8 +664,8 @@
                         },
                         "argument": {
                           "type": "LogicalExpression",
-                          "start": 1146,
-                          "end": 1196,
+                          "start": 1160,
+                          "end": 1210,
                           "loc": {
                             "start": {
                               "line": 15,
@@ -678,8 +678,8 @@
                           },
                           "left": {
                             "type": "UnaryExpression",
-                            "start": 1146,
-                            "end": 1152,
+                            "start": 1160,
+                            "end": 1166,
                             "loc": {
                               "start": {
                                 "line": 15,
@@ -694,8 +694,8 @@
                             "prefix": true,
                             "argument": {
                               "type": "Identifier",
-                              "start": 1147,
-                              "end": 1152,
+                              "start": 1161,
+                              "end": 1166,
                               "loc": {
                                 "start": {
                                   "line": 15,
@@ -718,8 +718,8 @@
                           "operator": "||",
                           "right": {
                             "type": "LogicalExpression",
-                            "start": 1157,
-                            "end": 1195,
+                            "start": 1171,
+                            "end": 1209,
                             "loc": {
                               "start": {
                                 "line": 15,
@@ -732,8 +732,8 @@
                             },
                             "left": {
                               "type": "CallExpression",
-                              "start": 1157,
-                              "end": 1171,
+                              "start": 1171,
+                              "end": 1185,
                               "loc": {
                                 "start": {
                                   "line": 15,
@@ -746,8 +746,8 @@
                               },
                               "callee": {
                                 "type": "MemberExpression",
-                                "start": 1157,
-                                "end": 1164,
+                                "start": 1171,
+                                "end": 1178,
                                 "loc": {
                                   "start": {
                                     "line": 15,
@@ -760,8 +760,8 @@
                                 },
                                 "object": {
                                   "type": "Identifier",
-                                  "start": 1157,
-                                  "end": 1159,
+                                  "start": 1171,
+                                  "end": 1173,
                                   "loc": {
                                     "start": {
                                       "line": 15,
@@ -777,8 +777,8 @@
                                 },
                                 "property": {
                                   "type": "Identifier",
-                                  "start": 1160,
-                                  "end": 1164,
+                                  "start": 1174,
+                                  "end": 1178,
                                   "loc": {
                                     "start": {
                                       "line": 15,
@@ -797,8 +797,8 @@
                               "arguments": [
                                 {
                                   "type": "Identifier",
-                                  "start": 1165,
-                                  "end": 1170,
+                                  "start": 1179,
+                                  "end": 1184,
                                   "loc": {
                                     "start": {
                                       "line": 15,
@@ -817,8 +817,8 @@
                             "operator": "&&",
                             "right": {
                               "type": "UnaryExpression",
-                              "start": 1175,
-                              "end": 1195,
+                              "start": 1189,
+                              "end": 1209,
                               "loc": {
                                 "start": {
                                   "line": 15,
@@ -833,8 +833,8 @@
                               "prefix": true,
                               "argument": {
                                 "type": "CallExpression",
-                                "start": 1176,
-                                "end": 1195,
+                                "start": 1190,
+                                "end": 1209,
                                 "loc": {
                                   "start": {
                                     "line": 15,
@@ -847,8 +847,8 @@
                                 },
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 1176,
-                                  "end": 1188,
+                                  "start": 1190,
+                                  "end": 1202,
                                   "loc": {
                                     "start": {
                                       "line": 15,
@@ -861,8 +861,8 @@
                                   },
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 1176,
-                                    "end": 1183,
+                                    "start": 1190,
+                                    "end": 1197,
                                     "loc": {
                                       "start": {
                                         "line": 15,
@@ -878,8 +878,8 @@
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 1184,
-                                    "end": 1188,
+                                    "start": 1198,
+                                    "end": 1202,
                                     "loc": {
                                       "start": {
                                         "line": 15,
@@ -898,8 +898,8 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 1189,
-                                    "end": 1194,
+                                    "start": 1203,
+                                    "end": 1208,
                                     "loc": {
                                       "start": {
                                         "line": 15,
@@ -921,7 +921,7 @@
                             },
                             "extra": {
                               "parenthesized": true,
-                              "parenStart": 1156
+                              "parenStart": 1170
                             }
                           },
                           "leadingComments": null
@@ -930,8 +930,8 @@
                           {
                             "type": "CommentBlock",
                             "value": " eslint-enable max-len ",
-                            "start": 1021,
-                            "end": 1048,
+                            "start": 1032,
+                            "end": 1059,
                             "loc": {
                               "start": {
                                 "line": 12,
@@ -946,8 +946,8 @@
                           {
                             "type": "CommentLine",
                             "value": " Allow urls to be valid if the component is pristine and no value is provided.",
-                            "start": 1054,
-                            "end": 1134,
+                            "start": 1067,
+                            "end": 1147,
                             "loc": {
                               "start": {
                                 "line": 14,
@@ -977,8 +977,8 @@
     {
       "type": "CommentBlock",
       "value": " eslint-disable max-len ",
-      "start": 150,
-      "end": 178,
+      "start": 156,
+      "end": 184,
       "loc": {
         "start": {
           "line": 7,
@@ -993,8 +993,8 @@
     {
       "type": "CommentLine",
       "value": " From https://stackoverflow.com/questions/8667070/javascript-regular-expression-to-validate-url",
-      "start": 183,
-      "end": 280,
+      "start": 190,
+      "end": 287,
       "loc": {
         "start": {
           "line": 8,
@@ -1009,8 +1009,8 @@
     {
       "type": "CommentLine",
       "value": " From http://stackoverflow.com/questions/46155/validate-email-address-in-javascript",
-      "start": 759,
-      "end": 844,
+      "start": 768,
+      "end": 853,
       "loc": {
         "start": {
           "line": 10,
@@ -1025,8 +1025,8 @@
     {
       "type": "CommentBlock",
       "value": " eslint-enable max-len ",
-      "start": 1021,
-      "end": 1048,
+      "start": 1032,
+      "end": 1059,
       "loc": {
         "start": {
           "line": 12,
@@ -1041,8 +1041,8 @@
     {
       "type": "CommentLine",
       "value": " Allow urls to be valid if the component is pristine and no value is provided.",
-      "start": 1054,
-      "end": 1134,
+      "start": 1067,
+      "end": 1147,
       "loc": {
         "start": {
           "line": 14,
@@ -1279,8 +1279,8 @@
         "binop": null
       },
       "value": "module",
-      "start": 33,
-      "end": 39,
+      "start": 35,
+      "end": 41,
       "loc": {
         "start": {
           "line": 3,
@@ -1305,8 +1305,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 39,
-      "end": 40,
+      "start": 41,
+      "end": 42,
       "loc": {
         "start": {
           "line": 3,
@@ -1331,8 +1331,8 @@
         "binop": null
       },
       "value": "exports",
-      "start": 40,
-      "end": 47,
+      "start": 42,
+      "end": 49,
       "loc": {
         "start": {
           "line": 3,
@@ -1358,8 +1358,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 48,
-      "end": 49,
+      "start": 50,
+      "end": 51,
       "loc": {
         "start": {
           "line": 3,
@@ -1386,8 +1386,8 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 50,
-      "end": 55,
+      "start": 52,
+      "end": 57,
       "loc": {
         "start": {
           "line": 3,
@@ -1412,8 +1412,8 @@
         "binop": null
       },
       "value": "Url",
-      "start": 56,
-      "end": 59,
+      "start": 58,
+      "end": 61,
       "loc": {
         "start": {
           "line": 3,
@@ -1440,8 +1440,8 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 60,
-      "end": 67,
+      "start": 62,
+      "end": 69,
       "loc": {
         "start": {
           "line": 3,
@@ -1466,8 +1466,8 @@
         "binop": null
       },
       "value": "Rule",
-      "start": 68,
-      "end": 72,
+      "start": 70,
+      "end": 74,
       "loc": {
         "start": {
           "line": 3,
@@ -1491,8 +1491,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 73,
-      "end": 74,
+      "start": 75,
+      "end": 76,
       "loc": {
         "start": {
           "line": 3,
@@ -1517,8 +1517,8 @@
         "binop": null
       },
       "value": "defaultMessage",
-      "start": 77,
-      "end": 91,
+      "start": 80,
+      "end": 94,
       "loc": {
         "start": {
           "line": 4,
@@ -1544,8 +1544,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 92,
-      "end": 93,
+      "start": 95,
+      "end": 96,
       "loc": {
         "start": {
           "line": 4,
@@ -1571,8 +1571,8 @@
         "updateContext": null
       },
       "value": "{{field}} must be a valid url.",
-      "start": 94,
-      "end": 126,
+      "start": 97,
+      "end": 129,
       "loc": {
         "start": {
           "line": 4,
@@ -1597,8 +1597,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 126,
-      "end": 127,
+      "start": 129,
+      "end": 130,
       "loc": {
         "start": {
           "line": 4,
@@ -1623,8 +1623,8 @@
         "binop": null
       },
       "value": "check",
-      "start": 131,
-      "end": 136,
+      "start": 136,
+      "end": 141,
       "loc": {
         "start": {
           "line": 6,
@@ -1648,8 +1648,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 136,
-      "end": 137,
+      "start": 141,
+      "end": 142,
       "loc": {
         "start": {
           "line": 6,
@@ -1674,8 +1674,8 @@
         "binop": null
       },
       "value": "value",
-      "start": 137,
-      "end": 142,
+      "start": 142,
+      "end": 147,
       "loc": {
         "start": {
           "line": 6,
@@ -1699,8 +1699,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 142,
-      "end": 143,
+      "start": 147,
+      "end": 148,
       "loc": {
         "start": {
           "line": 6,
@@ -1724,8 +1724,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 144,
-      "end": 145,
+      "start": 149,
+      "end": 150,
       "loc": {
         "start": {
           "line": 6,
@@ -1740,8 +1740,8 @@
     {
       "type": "CommentBlock",
       "value": " eslint-disable max-len ",
-      "start": 150,
-      "end": 178,
+      "start": 156,
+      "end": 184,
       "loc": {
         "start": {
           "line": 7,
@@ -1756,8 +1756,8 @@
     {
       "type": "CommentLine",
       "value": " From https://stackoverflow.com/questions/8667070/javascript-regular-expression-to-validate-url",
-      "start": 183,
-      "end": 280,
+      "start": 190,
+      "end": 287,
       "loc": {
         "start": {
           "line": 8,
@@ -1784,8 +1784,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 285,
-      "end": 290,
+      "start": 293,
+      "end": 298,
       "loc": {
         "start": {
           "line": 9,
@@ -1810,8 +1810,8 @@
         "binop": null
       },
       "value": "re",
-      "start": 291,
-      "end": 293,
+      "start": 299,
+      "end": 301,
       "loc": {
         "start": {
           "line": 9,
@@ -1837,8 +1837,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 294,
-      "end": 295,
+      "start": 302,
+      "end": 303,
       "loc": {
         "start": {
           "line": 9,
@@ -1867,8 +1867,8 @@
         "pattern": "^(?:(?:(?:https?|ftp):)?\\/\\/)?(?:\\S+(?::\\S*)?@)?(?:(?!(?:10|127)(?:\\.\\d{1,3}){3})(?!(?:169\\.254|192\\.168)(?:\\.\\d{1,3}){2})(?!172\\.(?:1[6-9]|2\\d|3[0-1])(?:\\.\\d{1,3}){2})(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,})))(?::\\d{2,5})?(?:[/?#]\\S*)?$",
         "flags": "i"
       },
-      "start": 296,
-      "end": 753,
+      "start": 304,
+      "end": 761,
       "loc": {
         "start": {
           "line": 9,
@@ -1893,8 +1893,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 753,
-      "end": 754,
+      "start": 761,
+      "end": 762,
       "loc": {
         "start": {
           "line": 9,
@@ -1909,8 +1909,8 @@
     {
       "type": "CommentLine",
       "value": " From http://stackoverflow.com/questions/46155/validate-email-address-in-javascript",
-      "start": 759,
-      "end": 844,
+      "start": 768,
+      "end": 853,
       "loc": {
         "start": {
           "line": 10,
@@ -1937,8 +1937,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 849,
-      "end": 854,
+      "start": 859,
+      "end": 864,
       "loc": {
         "start": {
           "line": 11,
@@ -1963,8 +1963,8 @@
         "binop": null
       },
       "value": "emailRe",
-      "start": 855,
-      "end": 862,
+      "start": 865,
+      "end": 872,
       "loc": {
         "start": {
           "line": 11,
@@ -1990,8 +1990,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 863,
-      "end": 864,
+      "start": 873,
+      "end": 874,
       "loc": {
         "start": {
           "line": 11,
@@ -2020,8 +2020,8 @@
         "pattern": "^(([^<>()[\\]\\\\.,;:\\s@\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
         "flags": ""
       },
-      "start": 865,
-      "end": 1015,
+      "start": 875,
+      "end": 1025,
       "loc": {
         "start": {
           "line": 11,
@@ -2046,8 +2046,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1015,
-      "end": 1016,
+      "start": 1025,
+      "end": 1026,
       "loc": {
         "start": {
           "line": 11,
@@ -2062,8 +2062,8 @@
     {
       "type": "CommentBlock",
       "value": " eslint-enable max-len ",
-      "start": 1021,
-      "end": 1048,
+      "start": 1032,
+      "end": 1059,
       "loc": {
         "start": {
           "line": 12,
@@ -2078,8 +2078,8 @@
     {
       "type": "CommentLine",
       "value": " Allow urls to be valid if the component is pristine and no value is provided.",
-      "start": 1054,
-      "end": 1134,
+      "start": 1067,
+      "end": 1147,
       "loc": {
         "start": {
           "line": 14,
@@ -2106,8 +2106,8 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 1139,
-      "end": 1145,
+      "start": 1153,
+      "end": 1159,
       "loc": {
         "start": {
           "line": 15,
@@ -2133,8 +2133,8 @@
         "updateContext": null
       },
       "value": "!",
-      "start": 1146,
-      "end": 1147,
+      "start": 1160,
+      "end": 1161,
       "loc": {
         "start": {
           "line": 15,
@@ -2159,8 +2159,8 @@
         "binop": null
       },
       "value": "value",
-      "start": 1147,
-      "end": 1152,
+      "start": 1161,
+      "end": 1166,
       "loc": {
         "start": {
           "line": 15,
@@ -2186,8 +2186,8 @@
         "updateContext": null
       },
       "value": "||",
-      "start": 1153,
-      "end": 1155,
+      "start": 1167,
+      "end": 1169,
       "loc": {
         "start": {
           "line": 15,
@@ -2211,8 +2211,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1156,
-      "end": 1157,
+      "start": 1170,
+      "end": 1171,
       "loc": {
         "start": {
           "line": 15,
@@ -2237,8 +2237,8 @@
         "binop": null
       },
       "value": "re",
-      "start": 1157,
-      "end": 1159,
+      "start": 1171,
+      "end": 1173,
       "loc": {
         "start": {
           "line": 15,
@@ -2263,8 +2263,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1159,
-      "end": 1160,
+      "start": 1173,
+      "end": 1174,
       "loc": {
         "start": {
           "line": 15,
@@ -2289,8 +2289,8 @@
         "binop": null
       },
       "value": "test",
-      "start": 1160,
-      "end": 1164,
+      "start": 1174,
+      "end": 1178,
       "loc": {
         "start": {
           "line": 15,
@@ -2314,8 +2314,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1164,
-      "end": 1165,
+      "start": 1178,
+      "end": 1179,
       "loc": {
         "start": {
           "line": 15,
@@ -2340,8 +2340,8 @@
         "binop": null
       },
       "value": "value",
-      "start": 1165,
-      "end": 1170,
+      "start": 1179,
+      "end": 1184,
       "loc": {
         "start": {
           "line": 15,
@@ -2365,8 +2365,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1170,
-      "end": 1171,
+      "start": 1184,
+      "end": 1185,
       "loc": {
         "start": {
           "line": 15,
@@ -2392,8 +2392,8 @@
         "updateContext": null
       },
       "value": "&&",
-      "start": 1172,
-      "end": 1174,
+      "start": 1186,
+      "end": 1188,
       "loc": {
         "start": {
           "line": 15,
@@ -2419,8 +2419,8 @@
         "updateContext": null
       },
       "value": "!",
-      "start": 1175,
-      "end": 1176,
+      "start": 1189,
+      "end": 1190,
       "loc": {
         "start": {
           "line": 15,
@@ -2445,8 +2445,8 @@
         "binop": null
       },
       "value": "emailRe",
-      "start": 1176,
-      "end": 1183,
+      "start": 1190,
+      "end": 1197,
       "loc": {
         "start": {
           "line": 15,
@@ -2471,8 +2471,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1183,
-      "end": 1184,
+      "start": 1197,
+      "end": 1198,
       "loc": {
         "start": {
           "line": 15,
@@ -2497,8 +2497,8 @@
         "binop": null
       },
       "value": "test",
-      "start": 1184,
-      "end": 1188,
+      "start": 1198,
+      "end": 1202,
       "loc": {
         "start": {
           "line": 15,
@@ -2522,8 +2522,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1188,
-      "end": 1189,
+      "start": 1202,
+      "end": 1203,
       "loc": {
         "start": {
           "line": 15,
@@ -2548,8 +2548,8 @@
         "binop": null
       },
       "value": "value",
-      "start": 1189,
-      "end": 1194,
+      "start": 1203,
+      "end": 1208,
       "loc": {
         "start": {
           "line": 15,
@@ -2573,8 +2573,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1194,
-      "end": 1195,
+      "start": 1208,
+      "end": 1209,
       "loc": {
         "start": {
           "line": 15,
@@ -2598,8 +2598,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1195,
-      "end": 1196,
+      "start": 1209,
+      "end": 1210,
       "loc": {
         "start": {
           "line": 15,
@@ -2624,8 +2624,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1196,
-      "end": 1197,
+      "start": 1210,
+      "end": 1211,
       "loc": {
         "start": {
           "line": 15,
@@ -2649,8 +2649,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1200,
-      "end": 1201,
+      "start": 1215,
+      "end": 1216,
       "loc": {
         "start": {
           "line": 16,
@@ -2674,8 +2674,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1202,
-      "end": 1203,
+      "start": 1218,
+      "end": 1219,
       "loc": {
         "start": {
           "line": 17,
@@ -2700,8 +2700,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1203,
-      "end": 1204,
+      "start": 1219,
+      "end": 1220,
       "loc": {
         "start": {
           "line": 17,
@@ -2726,8 +2726,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1205,
-      "end": 1205,
+      "start": 1222,
+      "end": 1222,
       "loc": {
         "start": {
           "line": 18,
