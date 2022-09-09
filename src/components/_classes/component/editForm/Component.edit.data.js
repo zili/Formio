@@ -2,11 +2,12 @@ import EditFormUtils from './utils';
 /* eslint-disable max-len */
 export default [
   {
+    type: 'textfield',
+    label: 'Bind to',
+    key: 'bind',
     weight: 0,
-    type: 'checkbox',
-    label: 'Multiple Values',
-    tooltip: 'Allows multiple values to be entered for this field.',
-    key: 'multiple',
+    placeholder: 'Field name',
+    tooltip: 'Field to be bound to this component',
     input: true
   },
   {
