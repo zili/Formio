@@ -1,4 +1,4 @@
 export default [
-  'admin@example.com',
+  'isAdmin@example.com',
   'test@example.com',
 ];
