@@ -1872,7 +1872,7 @@ describe('Formio.js Tests', () => {
         }
       },
       {
-        name: 'userPermissions method should give all permissions for isAdmin role',
+        name: 'userPermissions method should give all permissions for admin role',
         test() {
           const user = {
             roles: ['test_admin_role'],
@@ -2092,7 +2092,7 @@ describe('Formio.js Tests', () => {
         }
       },
       {
-        name: 'userPermissions method should give all group permissions for `isAdmin` level',
+        name: 'userPermissions method should give all group permissions for `admin` level',
         test() {
           const user = {
             roles: ['test_group_id'],
